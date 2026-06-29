@@ -1,0 +1,21 @@
+# Generated PDFs — don't commit client output
+output/
+
+# Client case files — contain PII; keep local only
+cases/*.json
+!cases/sample_case.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+*.swp
